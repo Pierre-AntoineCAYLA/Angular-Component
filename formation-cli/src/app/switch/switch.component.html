@@ -1,0 +1,11 @@
+<div [ngSwitch]="formations.length">
+  <p *ngSwitchCase="0">Aucune formation disponibles</p>
+  <p *ngSwitchCase="1">Une formation disponible :</p>
+  <p *ngSwitchDefault>Formations disponibles :</p>
+
+  <ul>
+      <li *ngFor="let formation of formations ; index as i">
+          <p >l'indexe {{i}} de formation est {{ formation._nom }}</p>
+      </li>
+  </ul> 
+</div>
