@@ -1,5 +1,5 @@
 <ul>
     <li *ngFor="let formation of formations">
-    <app-formation-item [formation]="formation"></app-formation-item>
+    <app-formation-item-output [formation]="formation" (formationSelected)="handleFormationSelected($event)"></app-formation-item-output>
     </li>
 </ul>

@@ -14,6 +14,7 @@ import { NgstyleComponent } from './ngstyle/ngstyle.component';
 import { PipeComponent } from './pipe/pipe.component';
 import { FormationItemComponent } from './formation-item/formation-item.component';
 import { PlaygroundComponent } from './playground/playground.component';
+import { FormationItemOutputComponent } from './formation-item-output/formation-item-output.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { PlaygroundComponent } from './playground/playground.component';
     NgstyleComponent,
     PipeComponent,
     FormationItemComponent,
-    PlaygroundComponent
+    PlaygroundComponent,
+    FormationItemOutputComponent
   ],
   imports: [
     BrowserModule

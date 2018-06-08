@@ -8,6 +8,10 @@ import Formation from '../pipe/Formation';
 })
 export class PlaygroundComponent implements OnInit {
 
+  handleFormationSelected(formation) {
+    alert('Formation selected '+ formation._nom);
+    }
+
   formations: Array<Formation> = [];
   constructor() { }
 
