@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let formation of formations ; index as i; first as f; last as l; even as e">
+        <p [ngClass]="{'last':l, 'first':f, 'even':e}">l'indexe {{i}} de formation est {{ formation._nom |titlecase}} elle coute {{formation._prix|currency:'EUR'}}, la formation commence le {{formation._dateDebut|date:'dd/MM/yyyy'}} et fini le  {{formation._dateFin|date:'dd/MM/yyyy'}} </p>
+    </li>
+</ul>

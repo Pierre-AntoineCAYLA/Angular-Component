@@ -10,6 +10,10 @@ import { VariableComponent } from './variable/variable.component';
 import { IfComponent } from './if/if.component';
 import { ForComponent } from './for/for.component';
 import { SwitchComponent } from './switch/switch.component';
+import { NgstyleComponent } from './ngstyle/ngstyle.component';
+import { PipeComponent } from './pipe/pipe.component';
+import { FormationItemComponent } from './formation-item/formation-item.component';
+import { PlaygroundComponent } from './playground/playground.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,11 @@ import { SwitchComponent } from './switch/switch.component';
     VariableComponent,
     IfComponent,
     ForComponent,
-    SwitchComponent
+    SwitchComponent,
+    NgstyleComponent,
+    PipeComponent,
+    FormationItemComponent,
+    PlaygroundComponent
   ],
   imports: [
     BrowserModule

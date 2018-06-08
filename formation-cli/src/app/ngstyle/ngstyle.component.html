@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let formation of formations ; index as i; first as f; last as l; even as e">
+        <p [ngClass]="{'last':l, 'first':f, 'even':e}">l'indexe {{i}} de formation est {{ formation._nom }}</p>
+    </li>
+</ul>
